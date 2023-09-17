@@ -1,0 +1,14 @@
+name: AHub
+version: '${project.version}'
+main: fletchplugins.ahub.AHub
+api-version: 1.19
+commands:
+  hub:
+    description: teleports the player to the server hub
+    usage: /hub
+    aliases: AHub:hub, lobby
+  serverhubreload:
+    description: reload the config
+    usage: /serverhubreload
+loadbefore:
+  - HubThat

@@ -1,0 +1,4 @@
+command-block-overrides: []
+aliases:
+  hub:
+    - "AHub:hub"

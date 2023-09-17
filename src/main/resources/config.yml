@@ -1,0 +1,5 @@
+#this is the name of the server hub, will run the command /server <hubServer>
+#this is likely unnecessary, but just in case we ever change the name of the lobby server
+hubServer: lobby
+#how long the command waits to teleport the player
+commandTimer: 5
